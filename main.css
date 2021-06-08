@@ -1,0 +1,219 @@
+body,
+h2,
+h3,
+p {
+  margin: 0 auto;
+}
+/* Header */
+header {
+  height: 55px;
+  width: 100%;
+  background-color: rgb(27, 155, 230);
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  font-size: 20px;
+  z-index: 5;
+}
+
+.header-logo a {
+  float: left;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+/* .header-logo a:hover {
+} */
+
+.header-logo .material-icons {
+  font-size: 14px;
+  padding-bottom: 2px;
+}
+
+.header-list {
+  margin-right: 5px;
+}
+
+.header-list ul {
+  float: right;
+  margin: 0 auto;
+}
+
+.header-list li {
+  float: left;
+  list-style: none;
+}
+
+.header-list a {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.3);
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  line-height: 20px;
+  width: 50px;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 15px;
+  display: block;
+}
+
+.header-list a:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+/* Header - End */
+
+/* Main wrapper */
+.container {
+  width: 1170px;
+  padding: 55px 15px 0 15px;
+  margin: 0 auto;
+}
+
+.main-wrapper {
+  /* padding-top: 65px; */
+  padding: 10px 0 30px 0;
+  text-align: center;
+  /* min-height: 1000px; */
+  background-color: #fff;
+}
+
+.about-wrapper {
+  min-height: 300px;
+  text-align: center;
+  color: black;
+}
+
+.about-text {
+  padding: 25px;
+  line-height: 25px;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 20px;
+  position: relative;
+}
+.svg-quote {
+  position: absolute;
+}
+.sq1 {
+  bottom: 5px;
+  right: 5px;
+}
+.sq2 {
+  top: 5px;
+  left: 5px;
+}
+
+/* Member */
+.member-section {
+  min-height: 600px;
+  padding-bottom: 60px;
+  /* background-color: #d2dae2; */
+  text-align: center;
+}
+.member-section h1 {
+  font-size: 30px;
+  text-shadow: #808080;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.member-wrapper {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.member {
+  float: left;
+  background-color: #d2dae2;
+  margin: 10px 2px;
+  /* width: 24%; */
+  width: 280px;
+  border-radius: 2%;
+}
+/* pembuatan text*/
+.text-wrapper {
+  margin: 0 auto;
+  font-size: 15px;
+  min-height: 175px;
+  color: black;
+}
+.gambar img {
+  padding-top: 30px;
+  width: 150px;
+  height: 150px;
+  transition: width 1.5s, height 1.5s, opacity 1.5s;
+  opacity: 0.7;
+}
+
+.nama,
+.sosmed {
+  padding: 5px 10px;
+}
+
+.bio {
+  padding: 15px;
+  opacity: 0.8;
+  line-height: 20px;
+}
+
+/* pembuatan animasi*/
+
+.gambar img:hover {
+  width: 200px;
+  height: 200px;
+  opacity: 1;
+}
+.gambar p {
+  font-size: 30px;
+}
+/* End of member */
+
+/* Icon */
+
+p .material-icons {
+  font-size: 20px;
+  color: red;
+  padding-top: 20px;
+}
+
+.text-wrapper p .material-icons {
+  font-size: 14px;
+  color: black;
+  margin-right: 4px;
+  /* padding-top: 20px; */
+}
+
+.about-text p .material-icons {
+  font-size: 14px;
+  color: rgb(27, 155, 230);
+  margin-right: 4px;
+  /* padding-top: 20px; */
+}
+/* End of Icon */
+
+/* End of Main wrapper */
+/* Footer */
+
+.footer-wrap p {
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  height: 100px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(27, 155, 230, 1);
+}
+
+.footer-wrap p {
+  padding-top: 15px;
+}
+/* End of Footer */
